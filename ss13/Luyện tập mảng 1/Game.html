@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Xếp hình</title>
+</head>
+<body>
+<h1>Game Xếp Hình</h1>
+<div class="game">
+    <div class="score-box">Score :
+        <div id="score">0</div>
+    </div>
+    <canvas id="canvas" width="400" height="800"></canvas>
+</div>
+<script>
+    const canvas = document.getElementById("canvas");
+    const ctx = canvas.getContext("2d");
+    const ROW = 18;
+    const COL = 10;
+    const SQ = 40;
+    const COLOR = "WHITE";
+    function drawSquare (x,y,color) {
+        ctx.fillStyle = color;
+        ctx.fillRect(x * SQ, SQ, SQ);
+        ctx.strokeStyle = "#ccc";
+        ctx.strokeStyle(x * SQ, y * SQ, SQ, SQ);
+    }
+    let board = [];
+    for (r = 0; r < ROW)
+
+</script>
+</body>
+</html>
