@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25e4b257-cadd-4a79-987d-380d43b1a6ed" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ss4/bai_tap_tao_danh_sach.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss13/Luyện tập mảng 1/bai_1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss13/Luyện tập mảng 1/bai_2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss13/Luyện tập mảng 1/bai_3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss5/BangCoBan.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss5/bang_co_ban.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss5/BangNangCao.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss5/bang_nang_cao.html" afterDir="false" />
-    </list>
+    <list default="true" id="25e4b257-cadd-4a79-987d-380d43b1a6ed" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +34,7 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "JavaScript Debug.Game1.html.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Merging main",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "D:/Codegym/module1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -103,7 +94,7 @@
       <workItem from="1729337849739" duration="4128000" />
       <workItem from="1729599228976" duration="4214000" />
       <workItem from="1729769936816" duration="18599000" />
-      <workItem from="1731072645513" duration="3505000" />
+      <workItem from="1731072645513" duration="4100000" />
     </task>
     <servers />
   </component>
