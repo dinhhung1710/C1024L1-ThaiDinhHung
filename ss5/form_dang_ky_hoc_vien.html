@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DangKyHocVien</title>
+</head>
+
+<style>
+
+
+
+    h2{
+        font-family: "Palatino Linotype", sans-serif;
+        height: 32px;
+        width: 325px;
+        color: blue;
+        background-color: aqua;
+    }
+
+    th{
+        text-align: left;
+    }
+
+    form{
+        text-align: center;
+    }
+
+
+
+    body{
+        background-color: burlywood;
+    }
+</style>
+
+
+<body>
+<h2>ĐĂNG KÝ HỌC VIÊN</h2>
+<table>
+    <tr>
+        <th>Họ và tên</th>
+        <td>
+            <input type="text" width="300px">
+        </td>
+    </tr>
+    <tr>
+        <th>Ngày sinh</th>
+        <td>
+            <input type="text">
+        </td>
+    </tr>
+    <tr>
+        <th>Giới tính</th>
+        <td>
+            <input type="radio">Nam
+            <input type="radio">Nữ
+        </td>
+
+    </tr>
+    <tr>
+        <th>Địa chỉ</th>
+        <td>
+            <form method="post">
+                <textarea cols="25" rows=5></textarea>
+            </form>
+        </td>
+    </tr>
+    <tr>
+        <th>Lớp</th>
+        <td>
+                <select name="class">
+                    <option value="12">Lớp 12</option>
+                    <option value="11">Lớp 11</option>
+                    <option value="10">Lớp 10</option>
+                    <option value="09">Lớp 09</option>
+                    <option value="08">Lớp 08</option>
+                    <option value="07">Lớp 07</option>
+                    <option value="06">Lớp 06</option>
+                </select>
+            </form>
+        </td>
+    </tr>
+
+    <tr>
+        <th>Email</th>
+        <td>
+            <input type="text">
+        </td>
+    </tr>
+
+    <tr>
+        <th>Điện thoại</th>
+        <td>
+            <input type="text">
+        </td>
+    </tr>
+
+    <tr>
+        <td colspan="3">
+            <form action="http://localhost:63342/bai_tap/bai_tap/DangKyHocVien.html?">
+                <input type="reset" value="Đăng ký">
+                <input type="submit" value="Nhập lại">
+            </form>
+        </td>
+    </tr>
+<tr></tr>
+
+</table>
+</body>
+</html>

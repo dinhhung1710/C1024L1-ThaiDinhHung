@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DangKyNguoiDung</title>
+</head>
+<style>
+    body {
+        padding: 2px;
+    }
+
+    label {
+        padding: 8px;
+        font-weight: bold;
+    }
+
+    input {
+        margin-bottom: 12px;
+    }
+
+
+</style>
+<body>
+<form method="post" action="https://demo.codegym.vn/6/registration_form/register.php">
+    <h2>ĐĂNG KÝ NGƯỜI DÙNG</h2>
+
+    <label for="name">Họ và tên:</label>
+    <br>
+    <input placeholder="name" id="name" name="username">
+    <br>
+
+    <label for="email">Email:</label>
+    <br>
+    <input placeholder="email" id="email" name="email">
+    <br>
+
+    <label for="phone">Số điện thoại</label>
+    <br>
+    <input placeholder="phone" id="phone" name="phone">
+    <br>
+
+    <label>Giới tính:</label>
+    <br>
+    <label>Nam
+        <input type="radio" name="gender">
+    </label>
+    <label>Nữ
+        <input type="radio" name="gender">
+    </label>
+    <br>
+    <button type="submit">Đăng ký</button>
+
+</form>
+</body>
+</html>
