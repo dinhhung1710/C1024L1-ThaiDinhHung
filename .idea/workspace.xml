@@ -5,6 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25e4b257-cadd-4a79-987d-380d43b1a6ed" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ss5/bang_don_gian.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss5/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss5/demo2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss7/ung_dung_chuyen_doi_tien_te.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss7/ung_dung_may_tinh.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,21 +36,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.Game1.html.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/Codegym/module1",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.Game1.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Codegym/module1&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Codegym\module1\ss13" />
@@ -96,7 +101,8 @@
       <workItem from="1729337849739" duration="4128000" />
       <workItem from="1729599228976" duration="4214000" />
       <workItem from="1729769936816" duration="18599000" />
-      <workItem from="1731072645513" duration="12181000" />
+      <workItem from="1731072645513" duration="22909000" />
+      <workItem from="1731930642644" duration="2509000" />
     </task>
     <servers />
   </component>
