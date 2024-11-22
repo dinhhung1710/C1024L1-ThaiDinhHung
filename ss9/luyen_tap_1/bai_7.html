@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+  let a =+prompt(`Nhập giá nội mạng`);
+  let b =+prompt(`Nhập giá ngoại mạng`);
+  let c =+prompt(`Nhập giá SMS nội mạng`);
+  let d =+prompt(`Nhập giá SMS ngoại mạng`);
+  let e =+prompt(`Nhập giá dữ liệu di động`);
+  let sum = a + b + c + d + e
+  if (a >= `1000 đồng/phút`) {
+    alert(`Yêu cầu nộp gia nội mạng`)
+  } else if (b >= `1500 đồng/phút`) {
+    alert(`Yêu cầu giá ngoại mạng`)
+  } else if (c >= `300 đồng/tin nắn`) {
+    alert(`Yêu cầu giá ngoại mạng`)
+  } else if (d >= `500 đồng/phút`) {
+    alert(`Yêu cầu giá ngoại mạng`)
+  } else if (e >= `2000MB`) {
+    alert(`Yêu ầu giá ngoại mạng`)
+  } else {
+    alert(`kết quả tổng l ${sum}`)
+  }
+</script>
+</body>
+</html>

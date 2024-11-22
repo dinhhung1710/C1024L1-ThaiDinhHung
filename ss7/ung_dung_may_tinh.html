@@ -29,11 +29,12 @@
     function getValues() {
         const num1 = parseFloat(document.getElementById('num1').value);
         const num2 = parseFloat(document.getElementById('num2').value);
-        return { num1, num2 };
+
     }
 
     function addition() {
-        const { num1, num2 } = getValues();
+        const num1 = parseFloat(document.getElementById('num1').value);
+        const num2 = parseFloat(document.getElementById('num2').value);
         document.getElementById('result').innerText = `Result: ${num1 + num2}`;
     }
 

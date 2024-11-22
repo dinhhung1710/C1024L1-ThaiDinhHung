@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Bài 4: Diện tích hình chữ nhật-->
+<script>
+    let a = +prompt("Mời nhập chiều rộng");
+    let b = +prompt("Mời nhập chiều dài");
+    let S = a * b;
+    if (a > 0 || b > 0) {
+        document.write(`Dien tich hinh chu nhat la ${S}`);
+    } else if (a < 0 || b < 0) {
+        alert("Dien tich phai luon duong, moi nhap lai");
+        // } else if (a < 0 || b > 0) {
+        //     alert("Dien tich phai luon duong, moi nhap lai");
+    } else {
+        alert("yeu cau nhap lai");
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Bài 5: Dện tích tam giác vuông-->
+<script>
+    let a = +prompt("Chieu dai cua canh goc vuong 1");
+    let h = +prompt("Chieu dai cua canh goc vuong 2");
+    let S = (1%2) * a * h ;
+    if (a > 0 || h > 0) {
+        document.write(`Diện tích của tam giác vuông là ${S}`);
+    } else if (a < 0 && h < 0) {
+        alert("Yeu cau canh cua goc vuong phai luon duong");
+    }
+</script>
+</body>
+</html>
