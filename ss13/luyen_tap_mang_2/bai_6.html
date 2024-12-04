@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai6</title>
+</head>
+<body>
+<script>
+    // Nhập mảng ký tự từ người dùng (ví dụ: "a-b-c-d-e")
+    let input = prompt("Nhập mảng ký tự (phân cách bởi khoảng trắng hoặc không):");
+
+    // Chuyển chuỗi thành mảng các ký tự
+    let charArray = input.split('');
+
+    // Duyệt qua mảng và thay thế ký tự '-' bằng '_'
+    for (let i = 0; i < charArray.length; i++) {
+        if (charArray[i] === '-') {
+            charArray[i] = '_';
+        }
+    }
+
+    // Hiển thị mảng đã thay thế
+    document.write("Mảng sau khi thay thế: " + charArray.join(''));
+
+</script>
+</body>
+</html>

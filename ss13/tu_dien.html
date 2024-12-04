@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // Danh sách từ điển Anh - Việt
+    let englishWords = ["apple", "banana", "cat", "dog", "elephant", "fish", "grape", "house", "ice", "juice"];
+    let vietnameseWords = ["táo", "chuối", "mèo", "chó", "voi", "cá", "nho", "ngôi nhà", "nước đá", "nước ép"];
+
+    // Hàm tra từ điển
+    function translate(word) {
+        // Chuyển từ cần tra về chữ thường để tránh phân biệt hoa thường
+        let index = englishWords.indexOf(word.toLowerCase());
+
+        // Kiểm tra nếu từ tìm thấy trong từ điển
+        if (index !== -1) {
+            return vietnameseWords[index];  // Trả về nghĩa tiếng Việt
+        } else {
+            return "Không tìm thấy từ này trong từ điển!";  // Nếu không tìm thấy
+        }
+    }
+
+    // Chương trình chính
+    let inputWord = prompt("Nhập từ tiếng Anh để tra cứu:");
+    let translation = translate(inputWord);
+    document.write("Nghĩa tiếng Việt của từ '" + inputWord + "' là: " + translation);
+
+</script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bai3</title>
+</head>
+<body>
+<script>
+  // Khởi tạo mảng ký tự
+  let arr = ['a', '3', 'b', '9', '1', 'c', '5', 'd', '2', '10', '2'];
+
+  // Biến để đếm số ký tự số trong mảng
+  let count = 0;
+
+  // Duyệt qua mảng và kiểm tra từng ký tự
+  for (let i = 0; i < arr.length; i++) {
+    // Kiểm tra xem ký tự có phải là số không
+    if (!isNaN(arr[i]) && arr[i] !== ' ') {
+      count++;
+    }
+  }
+
+  // Hiển thị số lượng ký tự số trong mảng
+  document.write("Số lượng ký tự số trong mảng là: " + count);
+
+</script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+  // Hàm đếm số nguyên âm trong chuỗi
+  function countNegativeNumbers(arr) {
+    let count = 0;
+
+    // Duyệt qua các phần tử trong mảng và đếm số nguyên âm
+    for (let i = 0; i < arr.length; i++) {
+      if (arr[i] < 0) {
+        count++;
+      }
+    }
+
+    return count;
+  }
+
+  // Khởi tạo mảng các số nguyên
+  let numbersArray = [-1, 4, -5, 3, -10, 8, -2];
+
+  // Gọi hàm và hiển thị kết quả
+  let negativeCount = countNegativeNumbers(numbersArray);
+  document.write("Số lượng số nguyên âm trong mảng là: " + negativeCount);
+
+</script>
+</body>
+</html>

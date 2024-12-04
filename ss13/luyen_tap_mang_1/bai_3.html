@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+  // Khởi tạo mảng số nguyên
+  let arr = [10, 15, 20, 24, 26, 30, 35, 60, 68, 75, 90];
+
+  // Tìm giá trị lớn nhất trong mảng
+  let maxValue = arr[0];
+  let sum = 0;
+
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] > maxValue) {
+      maxValue = arr[i];
+    }
+    sum += arr[i];  // Tính tổng các phần tử
+  }
+
+  // Tính giá trị trung bình
+  let avgValue = sum / arr.length;
+
+  // Hiển thị giá trị lớn nhất và giá trị trung bình bằng document.write
+  document.write("Giá trị lớn nhất trong mảng là: " + maxValue + "<br>");
+  document.write("Giá trị trung bình của các phần tử trong mảng là: " + avgValue);
+
+</script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+  // Khởi tạo mảng số nguyên gồm 10 phần tử
+  let arr = [10, 15, 20, 24, 26, 30, 35, 60, 68, 75, 90];
+
+  // Nhập giá trị của V
+  let V = 67;  // Bạn có thể thay đổi giá trị này
+
+  // Kiểm tra xem V có trong mảng hay không
+  let index = arr.indexOf(V);  // Tìm vị trí của V trong mảng
+
+  if (index !== -1) {
+    // Nếu V có trong mảng, tiến hành xóa phần tử V
+    for (let i = index; i < arr.length - 1; i++) {
+      arr[i] = arr[i + 1];  // Dịch các phần tử bên phải sang trái
+    }
+    arr[arr.length - 1] = 0;  // Gán 0 cho phần tử cuối cùng
+
+    document.write("Sau khi xóa " + V + ", mảng mới là: " + arr);
+  } else {
+    document.write(V + " không có trong mảng.");
+  }
+
+</script>
+</body>
+</html>

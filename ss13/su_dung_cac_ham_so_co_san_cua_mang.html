@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    <!--Bài 1-->
+    //     let myColor = ["Red", "Green", "White", "Black"];
+    //     document.write(myColor.toString());
+    // //     Bài 2
+    // function insertDash(number) {
+    //     let result = '';  // Khởi tạo chuỗi kết quả
+    //     let numberStr = number.toString();  // Chuyển số thành chuỗi để duyệt qua các ký tự
+    //
+    //     for (let i = 0; i < numberStr.length; i++) {
+    //         result += numberStr[i];  // Thêm ký tự hiện tại vào chuỗi kết quả
+    //         // Kiểm tra nếu số hiện tại và số tiếp theo đều là số chẵn
+    //         if (i < numberStr.length - 1 && parseInt(numberStr[i]) % 2 === 0 && parseInt(numberStr[i + 1]) % 2 === 0) {
+    //             result += '-';  // Thêm dấu '-' nếu cả hai số là số chẵn
+    //         }
+    //     }
+    //
+    //     return result;  // Trả về chuỗi kết quả
+    // }
+    //
+    // // Ví dụ chạy chương trình
+    // let inputNumber = prompt("Nhập vào một số:");  // Nhập số từ người dùng
+    // let output = insertDash(inputNumber);  // Gọi hàm insertDash để xử lý số nhập vào
+    // console.log("Kết quả:", output);  // In kết quả ra console
+    // Bài 3
+    function swapCase(str) {
+        let result = '';  // Chuỗi kết quả
+
+        for (let i = 0; i < str.length; i++) {
+            let char = str[i];
+            // Nếu ký tự là chữ thường, chuyển thành chữ hoa
+            if (char === char.toLowerCase()) {
+                result += char.toUpperCase();
+            }
+            // Nếu ký tự là chữ hoa, chuyển thành chữ thường
+            else {
+                result += char.toLowerCase();
+            }
+        }
+
+        return result;
+    }
+
+    // Ví dụ chạy chương trình
+    let inputString = prompt("Nhập vào một chuỗi:");
+    let output = swapCase(inputString);
+    console.log("Kết quả:", output);
+
+</script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bai4</title>
+</head>
+<body>
+<script>
+  // Khởi tạo chuỗi chứa các số
+  let str = "123 4567 89 0 12 345";
+
+  // Biến đếm số từ số trong chuỗi
+  let count = 0;
+
+  // Biến để kiểm tra nếu đang ở trong một số
+  let Number = false;
+
+  // Duyệt qua từng ký tự trong chuỗi
+  for (let i = 0; i < str.length; i++) {
+    // Nếu ký tự hiện tại là số
+    if (str[i] >= '0' && str[i] <= '9') {
+      // Nếu chưa ở trong một số, tức là đây là bắt đầu của một số mới
+      if (!Number) {
+        count++;  // Tăng số lượng số đếm được
+        Number = true;  // Đánh dấu là đang ở trong một số
+      }
+    } else {
+      // Nếu ký tự không phải là số, kết thúc của một số
+      Number = false;
+    }
+  }
+
+  // Hiển thị số lượng các số trong chuỗi
+  document.write("Số lượng các số trong chuỗi là: " + count);
+
+</script>
+</body>
+</html>
