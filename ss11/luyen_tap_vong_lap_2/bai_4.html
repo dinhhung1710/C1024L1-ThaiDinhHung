@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let width = 21;  // Độ rộng của hình chữ nhật
+    let height = 7;  // Chiều cao của hình chữ nhật
+
+    for (let i = 0; i < height; i++) {
+        if (i === 0 || i === height - 1) {
+            // Dòng đầu tiên và dòng cuối cùng in toàn bộ dấu *
+            for (let j = 0; j < width; j++) {
+                document.write("*");
+            }
+        } else {
+            // Các dòng ở giữa chỉ in dấu * ở đầu và cuối, còn lại là khoảng trắng
+            document.write("*");
+            for (let j = 1; j < width - 1; j++) {
+                document.write("&nbsp;&nbsp;");
+            }
+            document.write("*");
+        }
+        document.write("<br>");  // Xuống dòng sau mỗi hàng
+    }
+
+</script>
+</body>
+</html>

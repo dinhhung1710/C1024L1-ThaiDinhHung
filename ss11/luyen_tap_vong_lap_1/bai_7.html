@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+  for (let i = 1; i <= 100; i++) {
+    // Kiểm tra nếu số chia hết cho cả 3 và 5
+    if (i % 3 === 0 && i % 5 === 0) {
+      document.write("FizzBuzz<br>");
+    }
+    // Kiểm tra nếu số chia hết cho 3
+    else if (i % 3 === 0) {
+      document.write("Fizz<br>");
+    }
+    // Kiểm tra nếu số chia hết cho 5
+    else if (i % 5 === 0) {
+      document.write("Buzz<br>");
+    }
+    // In ra số nếu không chia hết cho 3 hoặc 5
+    else {
+      document.write(i + "<br>");
+    }
+  }
+
+</script>
+</body>
+</html>

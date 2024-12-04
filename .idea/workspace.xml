@@ -5,29 +5,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25e4b257-cadd-4a79-987d-380d43b1a6ed" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ss9/luyen_tap_1/bai_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9/luyen_tap_1/bai_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9/luyen_tap_1/bai_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9/luyen_tap_1/bai_4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9/luyen_tap_1/bai_5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9/luyen_tap_1/bai_6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9/luyen_tap_1/bai_7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9/luyen_tap_2/bai_1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9/luyen_tap_2/bai_10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9/luyen_tap_2/bai_11.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9/luyen_tap_2/bai_12.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9/luyen_tap_2/bai_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9/luyen_tap_2/bai_3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9/luyen_tap_2/bai_4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9/luyen_tap_2/bai_5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9/luyen_tap_2/bai_6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9/luyen_tap_2/bai_7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9/luyen_tap_2/bai_8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9/luyen_tap_2/bai_9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9/luyen_tap_swith_case.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss9/tinh_chi_so_can_nang_cua_co_the.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11/bang_cuu_chuong.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11/demo1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11/luyen_tap_vong_lap_1/bai_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11/luyen_tap_vong_lap_1/bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11/luyen_tap_vong_lap_1/bai_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11/luyen_tap_vong_lap_1/bai_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11/luyen_tap_vong_lap_1/bai_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11/luyen_tap_vong_lap_1/bai_6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11/luyen_tap_vong_lap_1/bai_7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11/luyen_tap_vong_lap_1/bai_8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11/luyen_tap_vong_lap_2/bai_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11/luyen_tap_vong_lap_2/bai_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11/luyen_tap_vong_lap_2/bai_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11/luyen_tap_vong_lap_2/bai_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11/luyen_tap_vong_lap_2/bai_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11/luyen_tap_vong_lap_2/bai_6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss11/nguyen_to_dau_tien.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss9/luyen_tap_cau_truc_dieu_kien_2/bai_9.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss7/ung_dung_may_tinh.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss7/ung_dung_may_tinh.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9/luyen_tap_1/bai_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9/luyen_tap_cau_truc_dieu_kien_1/bai_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9/luyen_tap_1/bai_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9/luyen_tap_cau_truc_dieu_kien_1/bai_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9/luyen_tap_1/bai_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9/luyen_tap_cau_truc_dieu_kien_1/bai_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9/luyen_tap_1/bai_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9/luyen_tap_cau_truc_dieu_kien_1/bai_4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9/luyen_tap_1/bai_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9/luyen_tap_cau_truc_dieu_kien_1/bai_5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9/luyen_tap_1/bai_6.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9/luyen_tap_cau_truc_dieu_kien_1/bai_6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9/luyen_tap_1/bai_7.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9/luyen_tap_cau_truc_dieu_kien_1/bai_7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9/luyen_tap_2/bai_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9/luyen_tap_cau_truc_dieu_kien_2/bai_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9/luyen_tap_2/bai_10.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9/luyen_tap_cau_truc_dieu_kien_2/bai_10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9/luyen_tap_2/bai_11.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9/luyen_tap_cau_truc_dieu_kien_2/bai_11.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9/luyen_tap_2/bai_12.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9/luyen_tap_cau_truc_dieu_kien_2/bai_12.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9/luyen_tap_2/bai_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9/luyen_tap_cau_truc_dieu_kien_2/bai_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9/luyen_tap_2/bai_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9/luyen_tap_cau_truc_dieu_kien_2/bai_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9/luyen_tap_2/bai_4.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9/luyen_tap_cau_truc_dieu_kien_2/bai_4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9/luyen_tap_2/bai_5.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9/luyen_tap_cau_truc_dieu_kien_2/bai_5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9/luyen_tap_2/bai_6.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9/luyen_tap_cau_truc_dieu_kien_2/bai_6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9/luyen_tap_2/bai_7.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9/luyen_tap_cau_truc_dieu_kien_2/bai_7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9/luyen_tap_2/bai_8.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss9/luyen_tap_cau_truc_dieu_kien_2/bai_8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss9/luyen_tap_2/bai_9.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,32 +68,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.Game1.html.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Codegym/module1&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.Game1.html.executor": "Run",
+    "JavaScript Debug.demo1.html.executor": "Run",
+    "JavaScript Debug.nguyen_to_dau_tien.html.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/Codegym/module1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Codegym\module1\ss13" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.demo1.html">
     <configuration name="Game1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/module1/ss13/Luyện tập mảng 1/Game1.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="demo1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/module1/ss11/demo1.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="nguyen_to_dau_tien.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/module1/ss11/nguyen_to_dau_tien.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.demo1.html" />
+        <item itemvalue="JavaScript Debug.nguyen_to_dau_tien.html" />
         <item itemvalue="JavaScript Debug.Game1.html" />
       </list>
     </recent_temporary>
@@ -121,7 +146,9 @@
       <workItem from="1731072645513" duration="22909000" />
       <workItem from="1731930642644" duration="7886000" />
       <workItem from="1732103394824" duration="8499000" />
-      <workItem from="1732275913917" duration="1494000" />
+      <workItem from="1732275913917" duration="7176000" />
+      <workItem from="1732541944397" duration="3093000" />
+      <workItem from="1733142015163" duration="911000" />
     </task>
     <servers />
   </component>

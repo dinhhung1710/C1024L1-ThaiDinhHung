@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+  let a = +prompt("Nhập số a");
+  let b = +prompt("Nhập số b");
+  let c = "";
+  let sum = a + b;
+  document.write('Dãy Fibonacci: ');
+  document.write(a + ', ');
+  for (let i = 2; i <= 20; i++) {
+    document.write(b);
+    if (i < 20) {
+      document.write(', ');
+    }
+    c = a + b;
+    a = b;
+    b = c;
+    // Cộng số hiện tại vào tổng
+    sum +=b;
+  }
+  document.write(`<br> Tổng của 20 số Fibonacci là: ` + sum);
+
+
+</script>
+</body>
+</html>

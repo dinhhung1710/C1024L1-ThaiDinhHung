@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<!--Bai nguyen to dau tien-->
+<script>
+  //     let num = +prompt("Nhập một giá trị");
+  // //Khai báo bến count và N
+  //     let count = 0;
+  //     let N = 2;
+  // //Kiem tra so nguyen to
+  //     function isPrime(num) {
+  //         if (num < 2)
+  //             return false;
+  // //
+  //         for (let i = 2; i <= Math.sqrt(num); i++) {
+  //             if (num % i === 0 )
+  //                 return false;
+  //         }
+  //         return true;
+  //     }
+  // //Su dung vong lap for de kiem tra va in ra so nguyen to
+  //     for (let N = 2; count < num; N++) {
+  //         if (isPrime(N)) {
+  //             document.write(N); //In ra so nguyen to
+  //             count++;           //Tang bien dem
+  //         }
+  //     }
+
+  // Bước 1: Khai báo biến và nhập giá trị từ bàn phím
+  let numbers = parseInt(prompt("Nhập số lượng số nguyên tố cần in: "));
+
+  // Bước 2: Khai báo biến count và N
+  let count = 0;
+  let N = 2;
+
+  // Hàm kiểm tra số nguyên tố
+  function isPrime(num) {
+    if (num < 2) return false;
+    for (let i = 2; i <= Math.sqrt(num); i++) {
+      if (num % i === 0) return false;
+    }
+    return true;
+  }
+
+  // Bước 4: Sử dụng vòng lặp while để kiểm tra và in từng số nguyên tố ra dòng mới
+  while (count < numbers) {
+    if (isPrime(N)) {
+      document.write(N + "<br>");  // In ra số nguyên tố trên dòng mới
+      count++;         // Tăng biến đếm số nguyên tố đã in
+    }
+    N++;  // Tăng N lên để kiểm tra số tiếp theo
+  }
+
+</script>
+</body>
+</html>

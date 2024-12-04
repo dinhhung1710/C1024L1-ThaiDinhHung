@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+  let a = +prompt("Moi nhap nhiet do");
+  if (isNaN(a)){
+    alert("yeu cau nhap lai, bat buoc phai la so")
+  } else {
+    while (a > 100) {
+      a = "Nhiet do qua cao " + "<br>" + "Yeu cau nhap lai" ;
+    } while (a < 20) {
+      a = "Nhiet do qua thap" + "<br>" + "Yeu cau nhap lai";
+    } do {
+      a = "Nhiet do mat me" + "<br>";
+    } while ( a < 30) {
+      do {
+        a = "Nhiet do gay nong buc" + "<br>";
+      } while ( a > 30)
+    }
+    document.write(a)
+  }
+
+</script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+  //Ham tinh giai thua cua vong lap for
+  function factorialFor(n) {
+    let result = 1;                    //Khoi tao ket qua ban dau la 1;
+    for (let i = 1; i <= n; i++) {     //Vong lap tu 1 den n
+      result *= i;                   //Nhan result voi i (tich dan cua cac so tu 1 den n)
+    }
+    return result;                     //Tra ve ket qua giai thua
+  }
+
+  // Ví dụ: Tính giai thừa của 5
+  let number = parseInt(prompt("Nhập số nguyên dương: "));
+  document.write("Giai thừa (sử dụng for) của " + number + " là: " + factorialFor(number));
+
+</script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+
+<script>
+  let message = "";
+
+  for (let i = 0; i < 6; i++) {
+    for (let j = 0; j <= 7; j++) {
+      // Điều kiện để in ra trái tim
+      if ((i === 0 && (j % 3 !== 0)) ||
+              (i === 1 && (j % 3 === 0)) ||
+              (i - j === 2) ||
+              (i + j === 8)) {
+        message += "*";
+      } else {
+        message += "&nbsp;&nbsp;";
+      }
+    }
+    message += "<br>";  // Xuống dòng sau mỗi hàng
+  }
+
+  document.write(message);
+
+</script>
+</body>
+</html>

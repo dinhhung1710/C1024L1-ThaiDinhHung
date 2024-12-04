@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+  let a = 0, b = 1, c;
+  // In ra "Dãy Fibonacci:" trước tiên
+  document.write('Dãy Fibonacci: ');
+
+  // In ra số đầu tiên mà không có dấu phẩy
+  document.write(a + ', ');
+
+  // Vòng lặp để in các số Fibonacci tiếp theo
+  for (let i = 2; i <= 1000; i++) {
+    document.write(b);
+
+    // Thêm dấu phẩy sau số trừ số cuối cùng
+    if (i < 1000) {
+      document.write(', ');
+    }
+
+    // Cập nhật giá trị Fibonacci
+    c = a + b;
+    a = b;
+    b = c;
+  }
+</script>
+</body>
+</html>

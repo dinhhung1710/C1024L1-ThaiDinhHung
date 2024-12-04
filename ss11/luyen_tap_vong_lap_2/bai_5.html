@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+  // Nhập số tiền ban đầu, số tháng cho vay, và lãi suất hàng tháng
+  let principal = parseFloat(prompt("Nhập số tiền ban đầu:"));
+  let months = parseInt(prompt("Nhập số tháng cho vay:"));
+  let interestRate = parseFloat(prompt("Nhập lãi suất hàng tháng (%):")) / 100; // Chuyển đổi phần trăm sang số thập phân
+
+  // Khai báo biến để lưu số tiền cuối cùng
+  let totalAmount = principal;
+
+  // Sử dụng vòng lặp for để tính lãi mẹ đẻ lãi con cho từng tháng
+  for (let i = 1; i <= months; i++) {
+    totalAmount += totalAmount * interestRate; // Tính lãi và cộng vào tiền gốc
+  }
+
+  // In ra kết quả số tiền cuối cùng
+  document.write("Số tiền sau " + months + " tháng là: " + totalAmount.toFixed(2) + " VND");
+
+</script>
+</body>
+</html>
