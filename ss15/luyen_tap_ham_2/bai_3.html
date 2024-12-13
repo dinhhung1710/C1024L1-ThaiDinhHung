@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // Hàm tính giai thừa của một số nguyên
+    function factorial(n) {
+        if (n === 0 || n === 1) {
+            return 1; // 0! = 1 và 1! = 1
+        } else {
+            return n * factorial(n - 1); // Gọi đệ quy để tính giai thừa
+        }
+    }
+
+    // Gọi hàm và hiển thị kết quả
+    let number = 5; // Ví dụ: số cần tính giai thừa
+    let result = factorial(number);
+
+    console.log("Giai thừa của " + number + " là: " + result);
+
+</script>
+</body>
+</html>

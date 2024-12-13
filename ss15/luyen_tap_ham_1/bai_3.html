@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+
+<button onclick="displayResult()">So sánh và Tính tổng</button>
+<p id="result"></p>
+
+<script>
+  function compareNumbers(a, b) {
+    if (a > b) {
+      alert("Tham số thứ nhất lớn hơn tham số thứ hai!");
+    } else {
+      return a + b;
+    }
+  }
+
+  function displayResult() {
+    let num1 = 4; // giá trị đầu tiên
+    let num2 = 6; // giá trị thứ hai
+    let result = compareNumbers(num1, num2); // gọi hàm với 2 tham số
+
+    if (result !== undefined) {
+      document.getElementById("result").innerHTML = "Tổng: " + result;
+    }
+  }
+</script>
+</body>
+</html>

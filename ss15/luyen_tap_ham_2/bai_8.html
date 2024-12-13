@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    // Gọi hàm và hiển thị kết quả
+    let numbers = [1, 2, 3, 4, 5]; // Mảng số nguyên ban đầu
+    let reversedNumbers = reverseArray(numbers);
+
+    // Hàm đảo ngược mảng số nguyên
+    function reverseArray(arr) {
+        let reversedArr = []; // Mảng để lưu kết quả đảo ngược
+
+        // Duyệt qua mảng từ cuối đến đầu và thêm vào mảng kết quả
+        for (let i = arr.length - 1; i >= 0; i--) {
+            reversedArr.push(arr[i]);
+        }
+
+        return reversedArr; // Trả về mảng đã đảo ngược
+    }
+
+    document.write("Mảng ban đầu: " + numbers);
+    document.write("Mảng đã đảo ngược: " + reversedNumbers);
+
+</script>
+</body>
+</html>

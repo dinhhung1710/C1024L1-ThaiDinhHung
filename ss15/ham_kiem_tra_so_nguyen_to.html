@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+  let num = +prompt("Nhập số cần kiểm tra");
+  let count = 0;
+  for (let i = 2; i <= Math.sqrt(num); i++){
+    if (num % i === 0) {
+        count++
+        //kết thúc vòng lặp chứa break
+        break;
+    }
+  }
+  if (count === 0) {
+    alert(`${num} là số nguyên tố`);
+  } else{
+    alert(`${num} không phải là số nguyên tố`);
+  }
+
+
+  // Hàm kiểm tra số nguyên tố
+  function isPrime(number) {
+    if (number <= 1) {
+      return false; // 1 không phải là số nguyên tố
+    }
+
+    // Kiểm tra từ 2 đến căn bậc hai của số đó
+    for (let i = 2; i <= Math.sqrt(number); i++) {
+      if (number % i === 0) {
+        return false; // Nếu chia hết cho i, không phải số nguyên tố
+      }
+    }
+
+    return true; // Nếu không chia hết cho số nào từ 2 đến sqrt(number), là số nguyên tố
+  }
+
+  // Tìm tất cả các số nguyên tố nhỏ hơn 10000
+  let primeNumbers = [];
+  for (let i = 2; i < 10000; i++) {
+    if (isPrime(i)) {
+      primeNumbers.push(i);
+    }
+  }
+
+  // Hiển thị danh sách các số nguyên tố
+  console.log("Các số nguyên tố nhỏ hơn 10000 là:");
+  console.log(primeNumbers);
+
+</script>
+</body>
+</html>

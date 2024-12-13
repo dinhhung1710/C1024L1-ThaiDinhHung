@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    // Hàm kiểm tra xem ký tự có phải là ký tự số không
+    function isDigit(character) {
+        // Kiểm tra nếu ký tự nằm trong khoảng từ '0' đến '9'
+        if (character >= '0' && character <= '9') {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    // Gọi hàm và hiển thị kết quả
+    let inputChar = '5'; // Ví dụ: ký tự cần kiểm tra
+    let result = isDigit(inputChar);
+
+    document.write("Ký tự '" + inputChar + "' là ký tự số: " + result);
+
+</script>
+</body>
+</html>

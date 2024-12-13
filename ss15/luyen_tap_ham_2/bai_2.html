@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // Hàm tính diện tích hình tròn
+    function calculateArea(radius) {
+        return Math.PI * radius * radius; // Diện tích = π * r^2
+    }
+
+    // Hàm tính chu vi hình tròn
+    function calculateCircumference(radius) {
+        return 2 * Math.PI * radius; // Chu vi = 2 * π * r
+    }
+
+    // Gọi hàm và hiển thị kết quả
+    let radius = 5; // Bán kính của hình tròn
+
+    let area = calculateArea(radius);
+    let circumference = calculateCircumference(radius);
+
+    document.write("Diện tích của hình tròn có bán kính " + radius + " là: " + area);
+    document.write("Chu vi của hình tròn có bán kính " + radius + " là: " + circumference);
+
+</script>
+</body>
+</html>

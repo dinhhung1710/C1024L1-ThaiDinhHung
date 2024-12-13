@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+
+<button onclick="resultOnDisplay()">Tang so</button>
+<p id="result"></p>
+
+<script>
+  function increaseNumber (number) {
+    return number +1;
+  }
+
+  function resultOnDisplay () {
+    let number = 5;
+    let result = increaseNumber(number);
+    document.getElementById("result").innerHTML = "Ket qua:" + result
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // Hàm đổi chỗ hai số nguyên
+    function swap(a, b) {
+        console.log("Trước khi đổi chỗ: a = " + a + ", b = " + b);
+
+        // Sử dụng biến tạm để đổi chỗ
+        let temp = a;
+        a = b;
+        b = temp;
+
+        console.log("Sau khi đổi chỗ: a = " + a + ", b = " + b);
+    }
+
+    // Gọi hàm và hiển thị kết quả
+    let num1 = 30;  // Số thứ nhất
+    let num2 = 70;  // Số thứ hai
+
+    swap(num1, num2);
+
+</script>
+</body>
+</html>

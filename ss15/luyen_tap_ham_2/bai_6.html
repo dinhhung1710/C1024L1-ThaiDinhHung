@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // Hàm kiểm tra xem số có phải là số nguyên dương hay không
+    function isPositiveInteger(number) {
+        // Kiểm tra xem số có lớn hơn 0 và là số nguyên hay không
+        if (number > 0 && Number.isInteger(number)) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    // Gọi hàm và hiển thị kết quả
+    let num = 5; // Ví dụ: số cần kiểm tra
+    let result = isPositiveInteger(num);
+
+    console.log("Số " + num + " là số nguyên dương: " + result);
+
+</script>
+</body>
+</html>

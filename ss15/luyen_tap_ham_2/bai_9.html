@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    // Gọi hàm và hiển thị kết quả
+    let characters = ['a', 'b', 'c', 'a', 'd', 'a', 'e']; // Mảng ký tự
+    let characterToCheck = 'a'; // Ký tự cần kiểm tra
+    let result = countCharacter(characters, characterToCheck);
+
+    // Hàm kiểm tra ký tự và đếm số lần xuất hiện
+    function countCharacter(arr, char) {
+        let count = 0; // Biến đếm số lần xuất hiện
+
+        // Duyệt qua mảng để đếm số lần xuất hiện của ký tự
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i] === char) {
+                count++;
+            }
+        }
+
+        // Nếu ký tự không xuất hiện, trả về -1
+        return count > 0 ? count : -1;
+    }
+
+    document.write("Ký tự '" + characterToCheck + "' xuất hiện: " + result + " lần.");
+
+</script>
+</body>
+</html>
